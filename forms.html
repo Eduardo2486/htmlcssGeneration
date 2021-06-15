@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and tables</title>
+  </head>
+  <body>
+    
+    <form method="POST">
+      <h3>Sign up</h3>
+      <p>
+        <label for= "nombre">Username:</label>
+        <input type="text" name="nombre" placeholder="Username" required />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="email" required/>
+      </p>
+      <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="password" required/>
+      </p>
+      <p>
+        <select name="meses" id="">
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+        </select>
+      </p>
+      <p>
+        <input type="checkbox" />
+        <label for="">Option 1</label>
+      </p>
+      <p>
+        <input type="radio" name="color" value="blue">
+        <label for="color">blue</label>
+        <input type="radio" name="color" value="green">
+        <label for="color">green</label>
+        <input type="radio" name="color" value="yellow">
+        <label for="color">yellow</label>
+        <input type="radio" name="color" value="red">
+        <label for="color">red</label>
+        <input type="radio" name="color" value="black">
+        <label for="color">black</label>
+      </p>
+      <p>
+        <textarea name="textarea" id="" cols="150" rows="20"></textarea> 
+      </p>
+      <button type="submit">Sign up</button>
+    </form>
+  </body>
+</html>

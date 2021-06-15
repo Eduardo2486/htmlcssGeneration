@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: rgb(0, 111, 247);
+    text-align: center;
+}
+p{
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: 700; 
+    font-style: Bold;
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+div{
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    
+}
+.first{ 
+    background-image: url('../images/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.seccond{
+    padding: 20px; 
+    background-color: rgb(0, 255, 208);
+}

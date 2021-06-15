@@ -1,0 +1,17 @@
+.box{
+    width: 400px;
+    height: 400px;
+}
+.one{
+    background-color: #000000;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-top-left-radius: 20px; 
+}
+.two{
+    background-color: #22b822;
+    border-radius: 50%;
+}
